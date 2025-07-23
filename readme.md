@@ -18,7 +18,6 @@ This repository highlights my work and learning in Application Security. It incl
 ## 🧰 Tools Used
 
 - Burp Suite  
-- OWASP ZAP  
 - GitHub Actions  
 - Postman  
 - Python
