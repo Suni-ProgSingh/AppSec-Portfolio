@@ -1,14 +1,30 @@
-# 🛡️ SQL Injection: What Went Wrong & How We Fixed It
+# 🔐 Application Security Portfolio
 
-SQL Injection is one of the most common and dangerous web vulnerabilities — it allows attackers to tamper with your queries and access data they shouldn’t.
-
-This snippet shows a simple login function written in Python (Flask) where things go wrong — and then how to fix it.
+This repository highlights my work and learning in Application Security. It includes secure coding examples, vulnerability analysis and security writeups — based on real-world experience and best practices.
 
 ---
 
-## 🔍 The Problem: Vulnerable Code
+## 🔎 What's Inside
 
-In the first version, we take user input directly and plug it into an SQL query using string formatting. This might look harmless at first, but it opens the door for attackers to inject malicious SQL commands.
+- ✅ OWASP Top 10 explained in simple terms  
+- ✅ Threat models for common web and mobile app setups  
+- ✅ Sample vulnerability reports (e.g., IDOR, Auth Bypass)  
+- ✅ Secure coding examples in Python and JavaScript  
+- ✅ Automation scripts using tools like OWASP ZAP  
+- ✅ Notes on secure design, code reviews, and best practices  
 
-```python
-query = f"SELECT * FROM users WHERE username = '{username}' AND password = '{password}'"
+---
+
+## 🧰 Tools Used
+
+- Burp Suite  
+- OWASP ZAP  
+- GitHub Actions  
+- Postman  
+- Python
+
+---
+
+## 📌 Disclaimer
+
+All content here is redacted, recreated, or fictional — created only for learning and demonstration purposes. No real client data is included.
